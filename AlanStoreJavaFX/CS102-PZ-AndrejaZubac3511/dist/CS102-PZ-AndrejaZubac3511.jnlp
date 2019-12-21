@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="CS102-PZ-AndrejaZubac3511.jnlp">
+  <information>
+    <title>CS102-PZ-AndrejaZubac3511</title>
+    <vendor>andre</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="CS102-PZ-AndrejaZubac3511.jar" size="4575080" download="eager" />
+    <jar href="lib\mysql-connector-java-5.1.23-bin.jar" size="834126" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="CS102-PZ-AndrejaZubac3511" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="cs102.pz.andrejazubac3511.MainApp"  name="CS102-PZ-AndrejaZubac3511" />
+  <update check="always"/>
+</jnlp>
